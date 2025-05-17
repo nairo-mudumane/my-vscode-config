@@ -2,7 +2,7 @@
 
 ```json
 {
-    // Editor settings
+    // Editor
     "editor.formatOnSave": true,
     "editor.detectIndentation": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -12,7 +12,7 @@
     "editor.tabCompletion": "on",
     "editor.inlineSuggest.enabled": true,
     "editor.wordWrap": "on",
-    // Workbench settings
+    // Workbench
     "workbench.colorTheme": "Cursor Dark Midnight",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
@@ -23,18 +23,20 @@
         "gitDecoration.modifiedResourceForeground": "#dda24e",
         "gitDecoration.untrackedResourceForeground": "#00ffb3"
     },
-    // Git settings
+    // Git
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    // Language settings
+    // Code Spell
+    "cSpell.language": "en,pt_PT",
+    // Language
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "prettier.singleQuote": true,
-    // Security settings
+    // Security
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDelete": true,
-    // Language-specific settings
+    // Language-specific
     "[html]": {
         "editor.suggest.insertMode": "replace",
         "editor.defaultFormatter": "mohd-akram.vscode-html-format"
