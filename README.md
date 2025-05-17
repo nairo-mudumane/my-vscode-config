@@ -12,6 +12,13 @@
     "editor.tabCompletion": "on",
     "editor.inlineSuggest.enabled": true,
     "editor.wordWrap": "on",
+    // tailwindcss
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
     // Workbench
     "workbench.colorTheme": "Cursor Dark Midnight",
     "workbench.iconTheme": "material-icon-theme",
